@@ -1,4 +1,4 @@
-function 1pmode:clearschedules
+function 1pmode:nextstage
 
 clear @a[tag=1Pplayer]
 kill @e[type=arrow]

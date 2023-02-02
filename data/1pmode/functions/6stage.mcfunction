@@ -1,4 +1,4 @@
-function 1pmode:clearschedules
+function 1pmode:nextstage
 
 scoreboard players add @a[tag=1Pplayer] current_1P_score 1
 title @a[tag=1Pm] subtitle {"text":"화살로 과녁을 맞추세요!","color":"yellow"}

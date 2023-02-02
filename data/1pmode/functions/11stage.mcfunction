@@ -1,4 +1,4 @@
-function 1pmode:clearschedules
+function 1pmode:nextstage
 
 gamemode survival @a[tag=1Pplayer]
 

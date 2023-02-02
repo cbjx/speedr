@@ -1,4 +1,4 @@
-function 1pmode:clearschedules
+function 1pmode:nextstage
 
 gamemode adventure @a[tag=1Pplayer]
 scoreboard players add @a[tag=1Pplayer] current_1P_score 1
