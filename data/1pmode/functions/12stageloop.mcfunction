@@ -1,0 +1,2 @@
+execute if block 105 -60 18 chest{Items:[{id:"minecraft:packed_ice",Count:3b},{id:"minecraft:blue_ice",Count:3b}]} run function 1pmode:13stage
+execute unless block 105 -60 18 chest{Items:[{id:"minecraft:packed_ice",Count:3b},{id:"minecraft:blue_ice",Count:3b}]} run schedule function 1pmode:12stageloop 1t

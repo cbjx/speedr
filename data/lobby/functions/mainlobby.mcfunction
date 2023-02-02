@@ -22,6 +22,8 @@ tellraw @a[tag=temp_1p_spec] {"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
 tellraw @a[tag=temp_1p_spec] {"text":"[ 나가기 ]","color":"red","bold":true,"clickEvent":{"action":"run_command","value":"/function lobby:leave1p"}}
 tellraw @a[tag=temp_1p_spec] {"text": ""}
 
+execute if entity @a[tag=temp_1p] run fill 18 -60 19 20 -56 19 minecraft:black_concrete
+
 tag @a remove temp_1p
 tag @a remove temp_1p_spec
 
