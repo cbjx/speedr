@@ -11,6 +11,7 @@ give @a[tag=1Pplayer] flint_and_steel{CanPlaceOn:["minecraft:iron_block","minecr
 
 # 잘못 설치된 블록 제거
 fill 82 -60 17 79 -56 14 air
+fill 80 -57 18 81 -59 18 air
 
 # 포탈 초기화
 fill 81 -60 18 80 -60 18 air
