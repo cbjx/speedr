@@ -2,11 +2,7 @@ execute as @a[tag=1Pm] at @s run playsound minecraft:speedr.bgm master @s ~ ~ ~ 
 title @a[tag=1Pm] title {"text":" "}
 scoreboard objectives add current_1P_score dummy
 scoreboard players set @a[tag=1Pplayer] current_1P_score 0
-
-scoreboard objectives add current_1P_score dummy
-scoreboard players set @a[tag=1Pplayer] current_1P_score 0
-
-gamemode adventure @a[tag=1Pm]
+gamemode adventure @a[tag=1Pplayer]
 
 tellraw @a[tag=1Pm] {"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"}
 tellraw @a[tag=1Pm] {"text":"[ 중도 포기 ]","color":"red","bold":true,"clickEvent":{"action":"run_command","value":"/function 1pmode:exit"}}
