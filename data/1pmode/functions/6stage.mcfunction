@@ -1,6 +1,8 @@
+function 1pmode:clearschedules
+
 scoreboard players add @a[tag=1Pplayer] current_1P_score 1
 title @a[tag=1Pm] subtitle {"text":"화살로 과녁을 맞추세요!","color":"yellow"}
-title @a[tag=1Pm] actionbar [{"text":"stage ","color":"yellow"},{"score":{"name":"@a[tag=1Pplayer,limit=1]","objective":"current_1P_score"}}]
+
 tp @a[tag=1Pplayer] 57 -60 16
 
 data modify block 57 -59 13 Items set value []
