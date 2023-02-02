@@ -1,0 +1,2 @@
+execute as @a[tag=1Pplayer] at @s if entity @s[nbt={Inventory:[{id:"minecraft:golden_carrot"}]}] run function 1pmode:16stage
+execute as @a[tag=1Pplayer] at @s unless entity @s[nbt={Inventory:[{id:"minecraft:golden_carrot"}]}] run schedule function 1pmode:15stageloop 1t
