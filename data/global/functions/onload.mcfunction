@@ -1,0 +1,2 @@
+tellraw @a ["", {"text":"SPEEEEEEED!!!! REMAKE에 오신 것을 환영합니다!","color":"gold","bold":true},"\n\n", "이 메시지가 보여지는 것은 성공적으로 맵이 로드되었음을 뜻합니다."]
+execute as @a at @s run playsound entity.player.levelup master @s ~ ~ ~ 32767 1 1

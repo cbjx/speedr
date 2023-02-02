@@ -13,13 +13,13 @@ tag @a[tag=temp_1p] add 1Pm
 tag @a[tag=temp_1p_spec] add 1Pm
 
 tellraw @a[tag=temp_1p] {"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"}
-tellraw @a[tag=temp_1p] {"text":"[ 나가기 ]","color":"red","bold":true,"clickEvent":{"action":"run_command","value":"/function lobby:leave1p"}}
+tellraw @a[tag=temp_1p] {"text":"[ 나가기 ]","color":"red","bold":true,"clickEvent":{"action":"run_command","value":"/execute unless entity @e[tag=1Pplaying] run function lobby:leave1p"}}
 tellraw @a[tag=temp_1p] {"text": ""}
-tellraw @a[tag=temp_1p] {"text":"[ 게임 시작 ]","color":"green","bold":true,"clickEvent":{"action":"run_command","value":"/function 1pmode:ready"}}
+tellraw @a[tag=temp_1p] {"text":"[ 게임 시작 ]","color":"green","bold":true,"clickEvent":{"action":"run_command","value":"/execute unless entity @e[tag=1Pplaying] run function 1pmode:ready"}}
 tellraw @a[tag=temp_1p] {"text": ""}
 
 tellraw @a[tag=temp_1p_spec] {"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"}
-tellraw @a[tag=temp_1p_spec] {"text":"[ 나가기 ]","color":"red","bold":true,"clickEvent":{"action":"run_command","value":"/function lobby:leave1p"}}
+tellraw @a[tag=temp_1p_spec] {"text":"[ 나가기 ]","color":"red","bold":true,"clickEvent":{"action":"run_command","value":"/execute unless entity @e[tag=1Pplaying] run function lobby:leave1p"}}
 tellraw @a[tag=temp_1p_spec] {"text": ""}
 
 execute if entity @a[tag=temp_1p] run fill 18 -60 19 20 -56 19 minecraft:black_concrete
