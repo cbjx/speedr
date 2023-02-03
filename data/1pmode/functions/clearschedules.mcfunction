@@ -9,3 +9,8 @@ schedule clear 1pmode:10stageloop
 schedule clear 1pmode:11stageloop
 schedule clear 1pmode:12stageloop
 schedule clear 1pmode:13stageloop
+schedule clear 1pmode:14stageloop
+schedule clear 1pmode:15stageloop
+schedule clear 1pmode:16stageloop
+schedule clear 1pmode:17stageloop
+schedule clear 1pmode:18stageloop
