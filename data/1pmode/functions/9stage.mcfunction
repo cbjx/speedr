@@ -6,8 +6,10 @@ scoreboard players add @a[tag=1Pplayer] current_1P_score 1
 title @a[tag=1Pm] subtitle {"text":"네더 포탈을 만드세요!","color":"yellow"}
 tp @a[tag=1Pplayer] 81.00 -60 15.00
 
-give @a[tag=1Pplayer] obsidian{CanPlaceOn:["minecraft:iron_block","minecraft:obsidian","minecraft:sea_lantern"]} 6
+gamerule doTileDrops true
+give @a[tag=1Pplayer] obsidian 6
 give @a[tag=1Pplayer] flint_and_steel{CanPlaceOn:["minecraft:iron_block","minecraft:obsidian","minecraft:sea_lantern"],Unbreakable:1b}
+give @a[tag=1Pplayer] diamond_pickaxe{CanDestroy:["minecraft:obsidian"],Unbreakable:1b,Enchantments:[{id:"minecraft:efficiency",lvl:15s}]}
 
 # 잘못 설치된 블록 제거
 fill 82 -60 17 79 -56 14 air
