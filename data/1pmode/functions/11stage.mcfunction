@@ -1,7 +1,5 @@
 function 1pmode:nextstage
 
-gamemode survival @a[tag=1Pplayer]
-
 fill 94 -60 14 98 -56 18 air
 fill 98 -60 18 98 -60 14 water
 fill 94 -60 18 94 -60 14 lava

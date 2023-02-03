@@ -1,6 +1,5 @@
 function 1pmode:nextstage
 
-gamemode adventure @a[tag=1Pplayer]
 scoreboard players add @a[tag=1Pplayer] current_1P_score 1
 title @a[tag=1Pm] subtitle {"text":"오른쪽 상자의 내용물을 왼쪽 상자로 옮기세요!","color":"yellow"}
 tp @a[tag=1Pplayer] 104 -60 14
