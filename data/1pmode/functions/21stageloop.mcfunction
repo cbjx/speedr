@@ -1,3 +1,4 @@
-item replace entity @a[tag=1Pplayer] weapon.mainhand with ender_pearl 1
-execute unless entity @a[tag=1Pplayer,x=174,y=-60,z=18,dx=4,dy=1,dz=0] run schedule function 1pmode:21stageloop 1t
-execute if entity @a[tag=1Pplayer,x=174,y=-60,z=18,dx=4,dy=1,dz=0] run function 1pmode:22stage
+execute as @a[tag=1Pplayer] at @s if block ~ ~-1 ~ red_concrete run tp @s 176 -42 16 0 90
+execute as @a[tag=1Pplayer] at @s unless block ~ ~-1 ~ emerald_block run schedule function 1pmode:21stageloop 1t
+execute as @a[tag=1Pplayer] at @s if block ~ ~-1 ~ emerald_block run function 1pmode:22stage
+
