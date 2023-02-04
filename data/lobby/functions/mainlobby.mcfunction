@@ -3,6 +3,7 @@ execute as @a[x=-1, y=-60, z=8, dx=2, dy=0, dz=2] run tp @s 0 -60 16 0.0 0.0
 execute as @a[x=-1, y=-60, z=14, dx=2, dy=0, dz=0] run tp @s 0 -60 0 0.0 0.0
 
 # Select Player
+# 1P
 execute unless entity @a[tag=1Pplayer] run tag @a[x=2, y=-60, z=22, dx=0, dy=0, dz=0] add temp_1p
 tag @a[x=2, y=-60, z=22, dx=0, dy=0, dz=0, tag=!temp_1p] add temp_1p_spec
 tp @a[tag=temp_1p] 19 -60 16 0.0 0.0
@@ -27,4 +28,9 @@ execute if entity @a[tag=temp_1p] run fill 18 -60 19 20 -56 19 minecraft:black_c
 tag @a remove temp_1p
 tag @a remove temp_1p_spec
 
-# 1Pmode Lobby
+# 2P
+execute unless entity @a[tag=2Pplayer] run tag @a[x=-2, y=-60, z=22, dx=0, dy=0, dz=0] add temp_2p
+tp @a[tag=temp_2p] 0 -60 16 0 0
+tellraw @a[tag=temp_2p] {"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"}
+tellraw @a[tag=temp_2p] {"text": "이런! 아직 2인용은 개발되지 않았습니다!","color": "green"}
+tag @a remove temp_2p
