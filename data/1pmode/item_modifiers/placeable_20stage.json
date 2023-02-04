@@ -1,0 +1,4 @@
+{
+    "function": "set_nbt",
+    "tag": "{CanPlaceOn:[\"minecraft:iron_block\",\"minecraft:obsidian\",\"minecraft:sea_lantern\",\"minecraft:snow_block\"]}"
+}
