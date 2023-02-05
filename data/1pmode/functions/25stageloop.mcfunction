@@ -4,5 +4,5 @@ execute store success score 24stagebug 1pstore run clear @a[tag=1Pplayer] mojang
 execute if score 24stagebug 1pstore matches 1 run give @a[tag=1Pplayer] mojang_banner_pattern
 execute if score 24stagebug 1pstore matches 1 run clear @a[tag=1Pplayer] mojang_banner_pattern
 
-execute as @a[tag=1Pplayer] at @s if entity @s[x=206,y=-60,dz=18,dx=4,dy=3,dz=0] run function 1pmode:26stage
-execute as @a[tag=1Pplayer] at @s unless entity @s[x=206,y=-60,dz=18,dx=4,dy=3,dz=0] run schedule function 1pmode:25stageloop 1t
+execute as @a[tag=1Pplayer] at @s if entity @s[x=206,y=-60,z=18,dx=4,dy=3,dz=0] run function 1pmode:26stage
+execute as @a[tag=1Pplayer] at @s unless entity @s[x=206,y=-60,z=18,dx=4,dy=3,dz=0] run schedule function 1pmode:25stageloop 1t
