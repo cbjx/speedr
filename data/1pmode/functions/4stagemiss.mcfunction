@@ -1,4 +1,4 @@
-# stich button plate
+# stick button plate
 clear @a[tag=1Pplayer]
 give @a[tag=1Pplayer] oak_planks 4
 
