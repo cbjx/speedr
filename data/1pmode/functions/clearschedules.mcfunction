@@ -19,3 +19,5 @@ schedule clear 1pmode:20stageloop
 schedule clear 1pmode:21stageloop
 schedule clear 1pmode:22stageloop
 schedule clear 1pmode:23stageloop
+schedule clear 1pmode:24stageloop
+schedule clear 1pmode:25stageloop
