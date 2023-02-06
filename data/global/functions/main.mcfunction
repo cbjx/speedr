@@ -6,3 +6,4 @@ effect give @a saturation 999999 255 true
 effect give @a regeneration 999999 255 true
 effect give @a resistance 999999 255 true
 effect give @a fire_resistance 999999 255 true
+title @a times 0 2147483647 0

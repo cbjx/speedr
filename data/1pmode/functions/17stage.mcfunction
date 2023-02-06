@@ -16,5 +16,6 @@ fill 146 -56 18 142 -56 14 light[level=15]
 
 give @a[tag=1Pplayer] respawn_anchor{CanPlaceOn:[obsidian]}
 give @a[tag=1Pplayer] glowstone 4
+summon armor_stand 144 -55 16 {Tags:["17stage_check"],NoGravity:1b,Invisible:1b}
 
 function 1pmode:17stageloop
