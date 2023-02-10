@@ -1,0 +1,4 @@
+{
+    "function": "set_nbt",
+    "tag": "{CanPlaceOn:[\"minecraft:iron_block\",\"minecraft:sand\",\"minecraft:sandstone\",\"minecraft:red_concrete\"]}"
+}
