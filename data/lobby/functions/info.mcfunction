@@ -1,0 +1,1 @@
+tellraw @s [{"text": "\nSWIIIIIIIFT!!!","color": "aqua","bold": true},{"text": "는 ","color": "white","bold": false},{"text": "SPEEEEEEED!!!","color": "yellow","bold": true},{"text": "의 팬 리메이크작입니다!","color": "white","bold": false}]
