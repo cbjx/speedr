@@ -1,4 +1,3 @@
-# execute unless score 9stage 1pstore matches 1 unless entity @e[type=item] unless entity @a[tag=1Pplayer,nbt={Inventory:[{id:"minecraft:obsidian"}]}] run give @a[tag=1Pplayer] obsidian
 execute as @a at @s if entity @s[nbt={SelectedItem:{id:"minecraft:obsidian"}}] run item modify entity @s weapon.mainhand 1pmode:placeable
 
 execute store success score 9stage 1pstore run fill 82 -56 18 79 -60 14 air replace nether_portal
