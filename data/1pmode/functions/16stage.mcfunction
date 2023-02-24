@@ -9,6 +9,7 @@ kill @e[type=allay]
 
 scoreboard players add @a[tag=1Pplayer] current_1P_score 1
 title @a[tag=1Pm] subtitle {"text":"알레이를 복제하세요!","color":"yellow"}
+kill @e[x=134,y=-60,z=14,dx=4,dy=4,dz=4,type=item]
 
 summon allay 136 -59 16 {CanDuplicate:1b,Tags:["16stage"],Invulnerable:1b}
 setblock 136 -60 16 jukebox 

@@ -12,6 +12,7 @@ fill 170 -56 18 166 -60 14 air
 
 scoreboard players add @a[tag=1Pplayer] current_1P_score 1
 title @a[tag=1Pm] subtitle {"text":"눈 골렘을 만드세요!","color":"yellow"}
+kill @e[x=166,y=-60,z=14,dx=4,dy=4,dz=4,type=item]
 
 give @a[tag=1Pplayer] snow_block 2
 give @a[tag=1Pplayer] pumpkin
