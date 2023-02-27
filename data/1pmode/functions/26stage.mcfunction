@@ -4,6 +4,7 @@ function 1pmode:nextstage
 clear @a[tag=1Pplayer]
 fill 214 -60 14 216 -55 25 air replace sand
 fill 214 -60 14 216 -55 25 air replace sandstone
+fill 214 -60 14 216 -55 25 air replace cut_sandstone
 effect clear @a[tag=1Pplayer]
 
 scoreboard players add @a[tag=1Pplayer] current_1P_score 1
