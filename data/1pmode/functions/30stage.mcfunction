@@ -10,6 +10,6 @@ kill @e[x=244,y=-60,z=14,dx=4,dy=4,dz=4,type=item]
 setblock 247 -57 19 oak_log
 setblock 246 -58 19 acacia_log
 setblock 245 -59 19 birch_log
-give @a[tag=1Pplayer] diamond_axe{Unbreakable:1b,CanPlaceOn:["oak_log","acacia_log","birch_log"]}
+give @a[tag=1Pplayer] netherite_axe{Unbreakable:1b,CanPlaceOn:["oak_log","acacia_log","birch_log"]}
 
 function 1pmode:30stageloop
