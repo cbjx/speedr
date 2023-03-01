@@ -8,4 +8,4 @@ title @a[tag=1Pm] subtitle {"text":"겐지","color":"yellow"}
 kill @e[x=198,y=-60,z=14,dx=4,dy=4,dz=4,type=item]
 
 
-# function 1pmode:24stageloop
+# function 1pmode:32stageloop
