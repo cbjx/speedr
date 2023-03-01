@@ -2,7 +2,7 @@ execute if entity @a[tag=1Pplaying] run title @a[tag=1Pm] actionbar [{"text":"st
 
 function lobby:mainlobby
 
-effect give @a saturation 999999 255 true
-effect give @a regeneration 999999 255 true
-effect give @a resistance 999999 255 true
-effect give @a fire_resistance 999999 255 true
+effect give @a saturation 1 255 true
+effect give @a regeneration 1 255 true
+effect give @a resistance 1 255 true
+effect give @a fire_resistance 1 255 true
