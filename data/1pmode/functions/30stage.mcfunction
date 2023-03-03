@@ -5,7 +5,6 @@ clear @a[tag=1Pplayer]
 
 scoreboard players add @a[tag=1Pplayer] current_1P_score 1
 title @a[tag=1Pm] subtitle {"text":"모든 나무의 껍질을 벗기세요!","color":"yellow"}
-kill @e[x=244,y=-60,z=14,dx=4,dy=4,dz=4,type=item]
 
 setblock 247 -57 19 oak_log
 setblock 246 -58 19 acacia_log

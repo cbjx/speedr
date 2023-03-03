@@ -9,8 +9,6 @@ fill 95 -60 18 95 -60 14 iron_block
 
 scoreboard players add @a[tag=1Pplayer] current_1P_score 1
 title @a[tag=1Pm] subtitle {"text":"흑요석을 만드세요!","color":"yellow"}
-kill @e[x=94,y=-60,z=14,dx=4,dy=4,dz=4,type=item]
-
 give @a[tag=1Pplayer] bucket 1
 effect give @a[tag=1Pplayer] fire_resistance 999999 255 true
 

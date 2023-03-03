@@ -5,7 +5,6 @@ clear @a[tag=1Pplayer]
 
 scoreboard players add @a[tag=1Pplayer] current_1P_score 1
 title @a[tag=1Pm] subtitle {"text":"다이아몬드 검에 마법을 부여하세요!","color":"yellow"}
-kill @e[x=150,y=-60,z=14,dx=4,dy=4,dz=4,type=item]
 
 setblock 152 -60 18 anvil[facing=east]
 give @a[tag=1Pplayer] diamond_sword
