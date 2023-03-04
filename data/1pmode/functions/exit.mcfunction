@@ -8,3 +8,5 @@ tag @a remove 1Pplaying
 fill 18 -60 19 20 -56 19 minecraft:black_concrete
 gamerule doTileDrops false
 function 1pmode:clearschedules
+kill @e[type=arrow]
+kill @e[type=item]
