@@ -2,6 +2,7 @@ schedule clear 1pmode:2stageloop
 schedule clear 1pmode:3stageloop
 schedule clear 1pmode:4stageloop
 schedule clear 1pmode:5stageloop
+schedule clear 1pmode:6stageloop
 schedule clear 1pmode:7stageloop
 schedule clear 1pmode:8stageloop
 schedule clear 1pmode:9stageloop
@@ -24,3 +25,7 @@ schedule clear 1pmode:25stageloop
 schedule clear 1pmode:26stageloop
 schedule clear 1pmode:27stageloop
 schedule clear 1pmode:28stageloop
+schedule clear 1pmode:29stageloop
+schedule clear 1pmode:30stageloop
+schedule clear 1pmode:31stageloop
+schedule clear 1pmdoe:32stageloop

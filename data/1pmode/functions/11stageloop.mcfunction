@@ -7,5 +7,5 @@ execute as @a at @s if entity @s[nbt={SelectedItem:{id:"minecraft:lava_bucket"}}
 fill 94 -60 14 98 -56 18 air replace stone
 fill 94 -60 14 98 -56 18 air replace cobblestone
 
-execute if score stage11 1pstore matches 1 run function 1pmode:12stage
 execute unless score stage11 1pstore matches 1 run schedule function 1pmode:11stageloop 1t
+execute if score stage11 1pstore matches 1 run function 1pmode:12stage
