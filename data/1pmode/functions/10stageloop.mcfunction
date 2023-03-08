@@ -1,2 +1,2 @@
-execute as @a[tag=1Pplayer] at @s unless entity @s[x=88,y=-58,z=18,dx=0,dy=1,dz=0] run schedule function 1pmode:10stageloop 1t
-execute as @a[tag=1Pplayer] at @s if entity @s[x=88,y=-58,z=18,dx=0,dy=1,dz=0] run function 1pmode:11stage
+execute as @a[tag=Player] at @s unless entity @s[x=88,y=-58,z=18,dx=0,dy=1,dz=0] run schedule function 1pmode:10stageloop 1t
+execute as @a[tag=Player] at @s if entity @s[x=88,y=-58,z=18,dx=0,dy=1,dz=0] run function 1pmode:11stage

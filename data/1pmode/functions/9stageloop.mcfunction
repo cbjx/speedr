@@ -1,4 +1,4 @@
-execute as @a[tag=1Pplayer] at @s if entity @s[nbt={SelectedItem:{id:"minecraft:obsidian"}}] run item modify entity @s weapon.mainhand 1pmode:placeable
+execute as @a[tag=Player] at @s if entity @s[nbt={SelectedItem:{id:"minecraft:obsidian"}}] run item modify entity @s weapon.mainhand 1pmode:placeable
 
 execute store success score 9stage 1pstore run fill 82 -56 18 79 -60 14 air replace nether_portal
 

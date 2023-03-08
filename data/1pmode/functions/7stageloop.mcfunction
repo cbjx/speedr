@@ -1,2 +1,2 @@
-execute unless entity @a[tag=1Pplayer, nbt={OnGround:1b}, x=63, y=-60, z=18, dx=4, dy=2, dz=0] run schedule function 1pmode:7stageloop 1t
-execute if entity @a[tag=1Pplayer, nbt={OnGround:1b}, x=63, y=-60, z=18, dx=4, dy=2, dz=0] run function 1pmode:8stage
+execute unless entity @a[tag=Player, nbt={OnGround:1b}, x=63, y=-60, z=18, dx=4, dy=2, dz=0] run schedule function 1pmode:7stageloop 1t
+execute if entity @a[tag=Player, nbt={OnGround:1b}, x=63, y=-60, z=18, dx=4, dy=2, dz=0] run function 1pmode:8stage

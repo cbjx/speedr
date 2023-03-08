@@ -1,4 +1,4 @@
-item replace entity @a[tag=1Pplayer] weapon.mainhand with water_bucket{CanPlaceOn:["minecraft:gold_block"]}
+item replace entity @a[tag=Player] weapon.mainhand with water_bucket{CanPlaceOn:["minecraft:gold_block"]}
 
 schedule function 1pmode:13stageloop 1t
 execute if blocks 111 -61 15 113 -61 17 111 -60 23 all run function 1pmode:14stage

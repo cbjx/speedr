@@ -1,10 +1,10 @@
-tp @a[tag=1Pplayer] 208 -60 14
+tp @a[tag=Player] 208 -60 14
 function 1pmode:nextstage
 
-clear @a[tag=1Pplayer]
+clear @a[tag=Player]
 
-scoreboard players add @a[tag=1Pplayer] current_1P_score 1
-title @a[tag=1Pm] subtitle {"text":"다락문을 이용해 구멍을 통과하세요!","color":"yellow"}
+scoreboard players add @a[tag=Player] current_1P_score 1
+title @a[tag=Pgroup] subtitle {"text":"다락문을 이용해 구멍을 통과하세요!","color":"yellow"}
 
 setblock 208 -59 15 oak_trapdoor[open=false,facing=north,half=bottom]
 

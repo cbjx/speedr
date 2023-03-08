@@ -1,15 +1,15 @@
-tp @a[tag=1Pplayer] 81.00 -60 15.00
+tp @a[tag=Player] 81.00 -60 15.00
 function 1pmode:nextstage
 
-clear @a[tag=1Pplayer]
+clear @a[tag=Player]
 
-scoreboard players add @a[tag=1Pplayer] current_1P_score 1
-title @a[tag=1Pm] subtitle {"text":"네더 포탈을 만드세요!","color":"yellow"}
+scoreboard players add @a[tag=Player] current_1P_score 1
+title @a[tag=Pgroup] subtitle {"text":"네더 포탈을 만드세요!","color":"yellow"}
 
 gamerule doTileDrops true
-give @a[tag=1Pplayer] obsidian 6
-give @a[tag=1Pplayer] flint_and_steel{CanPlaceOn:["minecraft:iron_block","minecraft:obsidian","minecraft:sea_lantern"],Unbreakable:1b}
-give @a[tag=1Pplayer] diamond_pickaxe{CanDestroy:["minecraft:obsidian"],Unbreakable:1b,Enchantments:[{id:"minecraft:efficiency",lvl:15s}]}
+give @a[tag=Player] obsidian 6
+give @a[tag=Player] flint_and_steel{CanPlaceOn:["minecraft:iron_block","minecraft:obsidian","minecraft:sea_lantern"],Unbreakable:1b}
+give @a[tag=Player] diamond_pickaxe{CanDestroy:["minecraft:obsidian"],Unbreakable:1b,Enchantments:[{id:"minecraft:efficiency",lvl:15s}]}
 
 # 잘못 설치된 블록 제거
 fill 82 -60 18 79 -56 14 air
