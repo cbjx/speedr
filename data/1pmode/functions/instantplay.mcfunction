@@ -1,4 +1,4 @@
-# fastplay
+# instantplay
 
 function 1pmode:exit
 tag @s add Pgroup
