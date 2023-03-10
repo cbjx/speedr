@@ -3,6 +3,8 @@ execute as @a[tag=Player] at @s unless entity @s[nbt={Inventory:[{id:"minecraft:
 
 execute as @a[tag=Player] at @s if entity @s[nbt={Inventory:[{id:"minecraft:obsidian"}]}] run clear @s flint_and_steel
 execute as @a[tag=Player] at @s if entity @e[type=item,nbt={Item:{id:"minecraft:obsidian"}}] run clear @s flint_and_steel
+execute as @a[tag=Player] at @s if entity @s[nbt={Inventory:[{id:"minecraft:obsidian"}]}] run fill 79 -60 14 82 -56 18 air replace fire
+execute as @a[tag=Player] at @s if entity @e[type=item,nbt={Item:{id:"minecraft:obsidian"}}] run fill 79 -60 14 82 -56 18 air replace fire
 kill @e[type=item,nbt={Item:{id:"minecraft:flint_and_steel"}}]
 
 execute store success score 9stage 1pstore run fill 82 -56 18 79 -60 14 air replace nether_portal
