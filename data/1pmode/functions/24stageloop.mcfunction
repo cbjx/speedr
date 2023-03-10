@@ -1,4 +1,6 @@
-execute as @a[tag=Player] at @s if entity @s[nbt={Inventory:[{id:"minecraft:white_banner",tag:{BlockEntityTag:{Patterns:[{Color:14}]}}}]}] unless entity @s[nbt={Inventory:[{id:"minecraft:white_banner",tag:{BlockEntityTag:{Patterns:[{Pattern:"moj",Color:14}]}}}]}] run function 1pmode:24stagemiss
+item replace entity @a[tag=Player] weapon.mainhand with ender_pearl 1
 
-execute unless entity @a[tag=Player,nbt={Inventory:[{id:"minecraft:white_banner",tag:{BlockEntityTag:{Patterns:[{Pattern:"moj",Color:14}]}}}]}] run schedule function 1pmode:24stageloop 1t
-execute if entity @a[tag=Player,nbt={Inventory:[{id:"minecraft:white_banner",tag:{BlockEntityTag:{Patterns:[{Pattern:"moj",Color:14}]}}}]}] run function 1pmode:25stage
+execute unless entity @a[tag=Player,x=198,y=-60,z=14,dx=4,dy=4,dz=4] run function 1pmode:24stagemiss
+
+execute unless entity @a[tag=Player,x=198,y=-60,z=18,dx=4,dy=1,dz=0] run schedule function 1pmode:24stageloop 1t
+execute if entity @a[tag=Player,x=198,y=-60,z=18,dx=4,dy=1,dz=0] run function 1pmode:25stage

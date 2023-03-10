@@ -1,7 +1,6 @@
-clear @a[tag=Player]
-give @a[tag=Player] white_banner
-give @a[tag=Player] mojang_banner_pattern
-give @a[tag=Player] red_dye
-kill @e[x=198,y=-60,z=14,dx=4,dy=4,dz=4,type=item]
+tp @a[tag=Player] 200 -60 14
 
-tellraw @a[tag=Pgroup] {"text": "모장 로고가 그려진 배너를 만드셔야 해요!","color": "red"}
+execute as @a[tag=Player] at @s run particle minecraft:explosion_emitter ~ ~ ~ 0 0 0 1 4 force @a
+execute as @a[tag=Player] at @s run playsound entity.generic.explode master @a[tag=Pgroup] ~ ~ ~ 1 1 1
+
+tellraw @a[tag=Pgroup] {"text": "그러는거 아닙니다...","color": "red"}
