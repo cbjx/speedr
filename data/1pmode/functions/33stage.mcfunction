@@ -1,4 +1,4 @@
-tp @a[tag=Player] 270 -60 14 ~ 60
+tp @a[tag=Player] 270 -60 15.0 ~ 45
 function 1pmode:nextstage
 
 clear @a[tag=Player]
