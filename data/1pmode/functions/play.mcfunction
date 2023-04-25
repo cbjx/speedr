@@ -5,6 +5,7 @@ scoreboard objectives add current_1P_score dummy
 scoreboard players set @a[tag=Player] current_1P_score 0
 gamemode spectator @a[tag=Spectator]
 gamemode adventure @a[tag=Player]
+tag @a[tag=Player] add Playing
 
 execute as @a[tag=Spectator] at @s run spectate @a[limit=1,tag=Player] @s
 

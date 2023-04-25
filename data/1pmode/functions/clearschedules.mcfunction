@@ -30,3 +30,4 @@ schedule clear 1pmode:30stageloop
 schedule clear 1pmode:31stageloop
 schedule clear 1pmdoe:32stageloop
 schedule clear 1pmode:33stageloop
+schedule clear 1pmode:34stageloop

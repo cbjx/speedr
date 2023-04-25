@@ -10,3 +10,4 @@ gamerule doTileDrops false
 function 1pmode:clearschedules
 kill @e[type=arrow]
 kill @e[type=item]
+scoreboard objectives remove current_1P_score
