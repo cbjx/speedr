@@ -1,9 +1,6 @@
 tp @a[tag=Player] 144 -60 14
 function 1pmode:nextstage
 
-clear @a[tag=Player]
-
-scoreboard players add @a[tag=Player] current_1P_score 1
 title @a[tag=Pgroup] subtitle {"text":"리스폰 정박기를 터뜨리세요!","color":"yellow"}
 
 setblock 136 -60 16 air destroy
