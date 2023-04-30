@@ -1,10 +1,6 @@
-tp @a[tag=Player] 192 -39 16
+tp @a[tag=Player] 286 -60 14
 function 1pmode:nextstage
 
-clear @a[tag=Player]
+title @a[tag=Pgroup] subtitle {"text":"수영을 해서 에메랄드 블록에 도달하세요!","color":"yellow"}
 
-scoreboard players add @a[tag=Player] current_1P_score 1
-title @a[tag=Pgroup] subtitle {"text":"겐지","color":"yellow"}
-
-
-# function 1pmode:32stageloop
+function 1pmode:35stageloop
