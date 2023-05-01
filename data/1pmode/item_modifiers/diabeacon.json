@@ -1,0 +1,4 @@
+{
+    "function": "set_nbt",
+    "tag": "{CanPlaceOn:[\"minecraft:white_wool\",\"minecraft:diamond_block\"]}"
+}

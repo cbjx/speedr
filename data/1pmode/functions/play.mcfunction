@@ -1,5 +1,5 @@
 execute as @a[tag=Pgroup] at @s run playsound minecraft:speedr.bgm master @s 15 -60 16 32767 1 1
-execute as @a[tag=Pgroup] at @s run playsound minecraft:speedr.bgm master @s 300 -60 16 32767 1 1
+execute as @a[tag=Pgroup] at @s run playsound minecraft:speedr.bgm master @s 372 -60 16 32767 1 1
 title @a[tag=Pgroup] title {"text":" "}
 scoreboard objectives add cur_score dummy
 scoreboard players set @a[tag=Player] cur_score 0
